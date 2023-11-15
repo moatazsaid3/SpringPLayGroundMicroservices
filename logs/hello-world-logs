@@ -1,0 +1,8 @@
+2023-10-31 14:56:12.849 - [restartedMain] - [,]-640-[com.example.helloworld.HelloWorldApplication.logStartupProfileInfo] - The following 1 profile is active: "local"
+2023-10-31 14:56:20.575 - [restartedMain] - [,]-57-[com.example.helloworld.HelloWorldApplication.logStarted] - Started HelloWorldApplication in 11.239 seconds (process running for 12.68)
+2023-10-31 14:57:00.710 - [restartedMain] - [,]-640-[com.example.helloworld.HelloWorldApplication.logStartupProfileInfo] - The following 1 profile is active: "local"
+2023-10-31 14:57:07.434 - [restartedMain] - [,]-57-[com.example.helloworld.HelloWorldApplication.logStarted] - Started HelloWorldApplication in 10.204 seconds (process running for 11.358)
+2023-10-31 14:57:59.220 - [restartedMain] - [,]-640-[com.example.helloworld.HelloWorldApplication.logStartupProfileInfo] - The following 1 profile is active: "local"
+2023-10-31 14:58:06.489 - [restartedMain] - [,]-57-[com.example.helloworld.HelloWorldApplication.logStarted] - Started HelloWorldApplication in 11.018 seconds (process running for 12.167)
+2023-10-31 14:58:15.813 - [restartedMain] - [,]-640-[com.example.helloworld.HelloWorldApplication.logStartupProfileInfo] - The following 1 profile is active: "local"
+2023-10-31 14:58:22.634 - [restartedMain] - [,]-57-[com.example.helloworld.HelloWorldApplication.logStarted] - Started HelloWorldApplication in 10.294 seconds (process running for 11.139)

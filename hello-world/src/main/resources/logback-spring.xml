@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+
+    <property name="LOGS" value="./logs/hello-world-logs"/>
+    <property name="patternValue" value="%d{yyyy-MM-dd HH:mm:ss.SSS} - [%thread] - [%X{traceId:-},%X{spanId:-}]-%L-[%logger.%M] - %msg%n"/>
+
+
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${patternValue}  </pattern>
+        </encoder>
+    </appender>
+    <appender name="File-Appender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>
+           ${LOGS}
+        </file>
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${patternValue}  </pattern>
+
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>./logs/log-files/local/%d{yyyy-MM-dd}/Log_local-%d{hh-mm-a}-%i.log.zip</fileNamePattern>
+            <maxFileSize>20KB</maxFileSize>
+            <totalSizeCap>5GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <logger name="com.example.helloworld" additivity="false" level="debug">
+        <appender-ref ref="Console"/>
+        <appender-ref ref="File-Appender"/>
+    </logger>
+
+</configuration>

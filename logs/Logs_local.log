@@ -1,0 +1,6 @@
+2023-08-21 16:18:55.296 - [restartedMain] - [,]-638-[com.example.helloworld.HelloWorldApplication.logStartupProfileInfo] - The following 1 profile is active: "local"
+2023-08-21 16:18:58.648 - [restartedMain] - [,]-57-[com.example.helloworld.HelloWorldApplication.logStarted] - Started HelloWorldApplication in 4.965 seconds (process running for 6.041)
+2023-08-21 16:19:09.968 - [http-nio-8882-exec-2] - [243aa75464cbd133e918265547a47808,68b733b9324be000]-33-[com.example.helloworld.infrastructure.LoggingAdvice.applicationLogger] - method invoked arguments : ["shimaa"]
+2023-08-21 16:19:09.978 - [http-nio-8882-exec-2] - [243aa75464cbd133e918265547a47808,68b733b9324be000]-19-[com.example.helloworld.services.HelloWorldService.sayHello] - <<< inside sayHello >>> name shimaa
+2023-08-21 16:19:09.978 - [http-nio-8882-exec-2] - [243aa75464cbd133e918265547a47808,68b733b9324be000]-25-[com.example.helloworld.services.HelloWorldService.sayHowAreYou] - <<< inside sayHowAreYou >>>
+2023-08-21 16:19:09.979 - [http-nio-8882-exec-2] - [243aa75464cbd133e918265547a47808,68b733b9324be000]-36-[com.example.helloworld.infrastructure.LoggingAdvice.applicationLogger] - Response : " Hello Every One :)  How Are You ? "
